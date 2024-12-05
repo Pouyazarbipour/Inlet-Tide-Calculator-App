@@ -25,4 +25,46 @@ To use this application, you need to have MATLAB installed. The app is compatibl
 ### Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/inlet-tide-calculator.git
+   git clone https://github.com/pouyazarbipour/Inlet-Tide-Calculator-App.git
+
+2. Open the repository folder in MATLAB.
+
+3. Run the InletApp.m script to start the GUI:
+
+## Input Fields
+Enter the following parameters in the input fields:
+
+- **Inlet Depth (m):** Depth of the inlet.
+- **Inlet Width (m):** Width of the inlet.
+- **Inlet Length (m):** Length of the inlet.
+- **Bay Planform Area (km²):** Area of the bay in square kilometers.
+- **Ocean Tide Amplitude (m):** Amplitude of the ocean tide.
+
+## Buttons
+- **Calculate:** Calculates the bay tide based on the input values and displays the results.
+- **Reset:** Resets all input fields to their default values.
+- **Graph:** The ocean tide and bay tide are plotted over time. The bay tide is smaller and lags behind the ocean tide, as expected from the model.
+
+## Output After Calculation
+After pressing **Calculate**, the app will display:
+
+1. **Repletion Coefficient (K):** Represents the degree of restriction and coupling between the ocean and bay tides.
+2. **Phase Lag (in degrees):** Shows how much the bay tide lags behind the ocean tide.
+3. **Response Ratio:** The ratio of the bay tide to the ocean tide amplitude.
+
+## Example
+Set the following values in the input fields:
+- **Inlet Depth:** 5.0 m
+- **Inlet Width:** 150.0 m
+- **Inlet Length:** 1200.0 m
+- **Bay Planform Area:** 60.0 km²
+- **Ocean Tide Amplitude:** 1.5 m
+
+Press **Calculate** to obtain the bay tide simulation. The app will plot the ocean and bay tides and display the results.
+
+## Results Interpretation
+- The **bay tide** is smaller and lags behind the ocean tide.
+- The **Repletion Coefficient (K)** represents the degree of restriction and coupling between the ocean and bay tides.
+- The **Phase Lag (in degrees)** shows how much the bay tide lags the ocean tide.
+- The **Response Ratio** indicates the proportion of the ocean tide amplitude that is observed in the bay.
+
