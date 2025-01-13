@@ -1,3 +1,5 @@
+%% POUYA ZARBIPOUR LAKPOSHTEH EMAIL: pouyazarbipour@gmail.com
+
 classdef InletApp < handle
     properties
         fig         % Main figure window
@@ -39,7 +41,7 @@ classdef InletApp < handle
                 'Inlet Depth (m)', 'InletDepth', '6.0';
                 'Inlet Width (m)', 'InletWidth', '100.0';
                 'Inlet Length (m)', 'InletLength', '1000.0';
-                'Bay Planform Area (km²)', 'BayPlanformArea', '50.0';
+                'Bay Planform Area (kmÂ²)', 'BayPlanformArea', '50.0';
                 'Ocean Tide Amplitude (m)', 'OceanTideAmplitude', '1.0'
             };
 
